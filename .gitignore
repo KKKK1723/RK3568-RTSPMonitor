@@ -1,0 +1,37 @@
+# Qt build artifacts
+build/
+*.pro.user
+*.pro.user.*
+moc_*
+ui_*.h
+qrc_*.cpp
+Makefile
+.qmake.stash
+
+# Compiled objects and binaries
+*.o
+*.obj
+*.exe
+*.out
+/server/TLServer/TLServer
+
+# IDE
+.qtc_clangd/
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log.txt
+
+# Screenshots (user data)
+screenshots/
+
+# Legacy files
+client/LLClient/h265decoder.*
